@@ -1,8 +1,8 @@
 
 
-Steps:
+Custom CamScanner
 =====================
-
+Steps:
 
 	1. Obtain page boundaries:
 		For this, the page was simply cropped by a few pixela at the border.
