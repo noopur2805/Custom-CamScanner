@@ -2,7 +2,8 @@
 
 Custom CamScanner
 =====================
-Steps:
+
+## Steps:
 
 	1. Obtain page boundaries:
 		For this, the page was simply cropped by a few pixela at the border.
@@ -22,4 +23,9 @@ Steps:
 		the x and y coordinates, along with the pose of a flat, curvature-free page using "cv2.solvePnP". The reprojection of the keypoints will be accomplished by sampling the cubic spline 
 		to obtain the z-offsets of the object points and calling "cv2.projectPoints". to project into the image plane.
 
+
+## Execution Command:
+
+On command prompt:
+`python process_image <image_file>`
 
