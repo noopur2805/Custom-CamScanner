@@ -33,5 +33,5 @@ Custom CamScanner
 
 On command prompt:
 
-`python process_image <image_file>`
+`python process_image.py <image_file>`
 
