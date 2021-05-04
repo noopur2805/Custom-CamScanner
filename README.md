@@ -9,8 +9,7 @@ Custom CamScanner
 		For this, the page was simply cropped by a few pixela at the border.
 		
 	2. Detect text contours:
-		Detect horizontal lines of text. First, identify their edges, then morphological operations like dilation and erosion helped in connecting those adjacent text, thus providing the 
-		horizontal alignment of text. Each remaining text contour is then approximated by its best-fitting line segment using PCA.
+		Detect horizontal lines of text. First, identify their edges, then morphological operations like dilation and erosion helped in connecting those 		 adjacent text, thus providing the horizontal alignment of text. Each remaining text contour is then approximated by its best-fitting line segment using PCA.
 		
 	3. Convert text into spans and assemble spans:
 		Converting into span means to obtain how much page/text warp is onto how many further pixels on same line of text.
@@ -27,5 +26,6 @@ Custom CamScanner
 ## Execution Command:
 
 On command prompt:
+
 `python process_image <image_file>`
 
