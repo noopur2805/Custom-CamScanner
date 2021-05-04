@@ -27,6 +27,7 @@ Custom CamScanner
 		along with the pose of a flat, curvature-free page using "cv2.solvePnP". The reprojection of the keypoints 
 		will be accomplished by sampling the cubic spline to obtain the z-offsets of the object points and calling 
 		"cv2.projectPoints". to project into the image plane.
+		This tuens the perspective of the page to top-down.
 
 
 ## Execution Command:
